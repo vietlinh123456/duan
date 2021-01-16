@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Linerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThongKe">
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        app:srcCompat="@drawable/imgdoanhthu" />
+
+    <TextView
+        android:id="@+id/tv_doanhthuNgay"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="50dp"
+        android:text="Theo ngày"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_doanhthuThang"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="50dp"
+        android:text="Theo Tháng"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/tv_doanhthuNam"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="50dp"
+        android:text="Năm này :"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+</LinearLayout>

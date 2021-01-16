@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="42dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="11dp"
+        app:layout_constraintEnd_toStartOf="@+id/ed_updatecategoryMa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/iduser" />
+
+    <EditText
+        android:id="@+id/ed_updatecategoryMa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="141dp"
+        android:ems="10"
+        android:hint="Mã thể loại"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView26"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="51dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintEnd_toStartOf="@+id/ed_updatecategoryTenTL"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView26"
+        app:srcCompat="@drawable/theloai" />
+
+    <EditText
+        android:id="@+id/ed_updatecategoryTenTL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="141dp"
+        android:ems="10"
+        android:hint="Tên Thể loại"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView27"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_updatecategoryMa" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="54dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/billid"
+        tools:layout_editor_absoluteY="156dp" />
+
+    <EditText
+        android:id="@+id/ed_updatecategoryMoTa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="140dp"
+        android:ems="10"
+        android:hint="Mô Tả"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_updatecategoryTenTL" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="47dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="13dp"
+        app:layout_constraintEnd_toStartOf="@+id/ed_updatecategoryViTri"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/addbill"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <EditText
+        android:id="@+id/ed_updatecategoryViTri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="133dp"
+        android:ems="10"
+        android:hint="Vị Trí"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView29"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_updatecategoryMoTa" />
+
+    <ImageView
+        android:id="@+id/img_updatecategoryUpdate"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="114dp"
+        android:layout_marginEnd="29dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/updateuser" />
+</androidx.constraintlayout.widget.ConstraintLayout>
